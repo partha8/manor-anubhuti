@@ -1,16 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-color-light: #f8f9fd;
+  --font-color-dark: #091e42;
+
+  --font-color-tint1: #344563;
+  --font-color-tint2: #505f79;
+
+  --border-color: #dfe1e6;
+
+  --bg-color: #F5F5F5;
+
+  --card-color: #2e2e2e;
+  --light-card-color: #F2F2F2;
+  --hover-color: #363636;
+  --misc-color: #1f1f1f;
+
+  --primary-color: #FA6B9D;
+  --primary-color-dark: #018c26;
+  --secondary-color: #0081C3;
+  --danger-color: #ff0000;
+  --warning-color: #fade53;
+
+  --transition-one: all 0.4s linear;
+  --transition-two: 0.3s ease-in-out all;
+  --borderRadius: 10px;
+  --letterSpacing: 1px;
+  --max-width: 1250px;
+  --fixed-width: 500px;
+  --fluid-width: 90vw;
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif, sans-serif;
+  background: var(--bg-color);
+  color: var(--font-color-dark);
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  background: transparent;
+
 }
 
-* {
-  box-sizing: border-box;
+@media (max-width: 800px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+.page {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  /* border: 1px solid black; */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width:1024px) {
+  .container {
+    flex-direction: column;
+  }
 }

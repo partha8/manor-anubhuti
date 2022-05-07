@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    max-width: var(--max-width);
+}
+
+.header>* {
+    cursor: pointer;
+}
+
+.logoContainer {
+    height: 5rem;
+    position: relative;
+}
+
+.logo {
+    height: 100%;
+}
+
+.logoBg {
+    position: absolute;
+    height: 100%;
+}
+
+.brand {
+
+    font-family: 'Cookie', cursive;
+    font-weight: lighter;
+    position: absolute;
+    top: 1rem;
+    left: 1.6rem;
+    color: #fff;
+    text-shadow: 2px 2px 8px #ff0000;
+    z-index: 2;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: 'Merriweather', serif;
+}
+
+.link:hover {
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-color)
+}
+
+.menu {
+    font-weight: lighter;
+    font-size: 1.5rem;
+    display: none;
+}
