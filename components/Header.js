@@ -18,11 +18,8 @@ const Header = () => {
         </div>
       </Link>
       <div className={styles.links}>
-        {/* <Link href="/blog">
-          <a className={styles.link}>Blog</a>
-        </Link> */}
         <Link href="/about">
-          <a className={styles.link}>About</a>
+          <a className={styles.link}>About Me</a>
         </Link>
       </div>
       <AiOutlineMenu

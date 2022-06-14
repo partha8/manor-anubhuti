@@ -65,7 +65,7 @@
     font-size: 1.2rem;
     margin-bottom: 1rem;
     cursor: pointer;
-
+    font-family: inherit;
 }
 
 .title:after,
