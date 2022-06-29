@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import { BsInstagram, BsFacebook } from "react-icons/bs";
 import Link from "next/link";
@@ -7,7 +6,6 @@ import styles from "../styles/side-panel.module.css";
 const SidePanel = () => {
   return (
     <section className={styles.sidePanel}>
-      <h3 className={styles.aboutMe}>About Me</h3>
       <section className={styles.aboutContainer}>
         <div className={styles.imageContainer}>
           <Image
@@ -18,25 +16,26 @@ const SidePanel = () => {
             alt="profile"
           />
         </div>
-        <h3>Writer and Reader</h3>
+        <h3>অসমীয়া ছোৱালী , অসমৰ বোৱাৰী ।</h3>
         <p className={styles.desc}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-          consectetur minus eos doloremque! Eum voluptate mollitia veritatis cum
-          ut at, labore tempora distinctio quod laborum vel, enim sunt, officiis
-          repellat.
+          A homemaker with the passion of writing life experiences and doing
+          reels 😋❤️ <br /> Poet / Storyteller / Reel Star
         </p>
         <div className={styles.socials}>
           <h4>Keep in touch</h4>
           <div className={styles.iconsContainer}>
-            <Link href="https://www.instagram.com/manor_anubhuti/" passHref>
+            <a
+              href="https://www.instagram.com/manor_anubhuti/"
+              target="__blank"
+            >
               <BsInstagram />
-            </Link>
-            <Link
+            </a>
+            <a
               href="https://www.facebook.com/profile.php?id=100018900558697"
-              passHref
+              target="__blank"
             >
               <BsFacebook />
-            </Link>
+            </a>
           </div>
         </div>
       </section>

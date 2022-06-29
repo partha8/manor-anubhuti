@@ -1,7 +1,8 @@
 .about {
-    font-weight: normal;
     font-family: 'Merriweather', serif;
     margin-bottom: 0.75rem;
+    margin-top: 2rem;
+    font-weight: normal;
 }
 
 .aboutContainer {
@@ -25,4 +26,6 @@
 
 .aboutContent {
     max-width: 50rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
 }

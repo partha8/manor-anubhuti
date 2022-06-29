@@ -1,6 +1,7 @@
 .sidePanel {
     width: 20rem;
     height: 100%;
+    margin-top: 1rem;
 }
 
 .aboutMe {
@@ -32,6 +33,7 @@
     text-align: center;
     padding-top: 1rem;
     border-top: 1px solid var(--border-color);
+    font-family: "Roboto", Arial, Helvetica, sans-serif, sans-serif;
 }
 
 .socials {
