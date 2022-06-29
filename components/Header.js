@@ -3,6 +3,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import Link from "next/link";
 import { useState } from "react";
 import DropDownMenu from "./DropDownMenu";
+import Image from "next/image";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   const closeMenu = () => {
@@ -12,9 +13,7 @@ const Header = () => {
     <header className={styles.header}>
       <Link href="/" passHref>
         <div className={styles.logoContainer}>
-          <h3 className={styles.brand}>manor_anubhuti</h3>
-          <img className={styles.logoBg} src="/stroke.png" />
-          {/* <img src="/logo4.png" className={styles.logo} alt="logo" /> */}
+          <img src="/logo.png" className={styles.logo} alt="logo" />
         </div>
       </Link>
       <div className={styles.links}>
@@ -32,3 +31,4 @@ const Header = () => {
 };
 
 export default Header;
+ 
