@@ -33,12 +33,10 @@
     text-align: center;
     padding-top: 1rem;
     border-top: 1px solid var(--border-color);
-    font-family: "Roboto", Arial, Helvetica, sans-serif, sans-serif;
 }
 
 .socials {
     border-top: 1px solid var(--border-color);
-
 }
 
 .socials h4 {
