@@ -17,6 +17,16 @@ export default function PostPage({
     <div className="page">
       <div className="container">
         <div className={styles.post}>
+          <Link href="/">
+            <a
+              style={{
+                textDecoration: "underline",
+                
+              }}
+            >
+              Go back to read more blogs!
+            </a>
+          </Link>
           <p className={styles.postDate}>Published {date}</p>
           <h1 className={styles.title}>{title}</h1>
           <div className={styles.imgContainer}>
@@ -25,7 +35,7 @@ export default function PostPage({
               objectFit="cover"
               className={styles.image}
               src={cover_image}
-              alt=""
+              alt="cover image"
             />
           </div>
 
